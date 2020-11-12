@@ -5,8 +5,8 @@
  * @LastEditTime: 2020-11-10 16:59:22
  */
 
-// let ipUrl = "https://cs.51baocan.com"
-let ipUrl = "https://production-4g40fa4f04730382.service.tcloudbase.com"
+
+let ipUrl = "xxxxx"
 
 
 let servicePath = {
