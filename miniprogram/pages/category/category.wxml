@@ -1,0 +1,21 @@
+<view class="container">
+  <van-dropdown-menu>
+    <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+    <van-dropdown-item value="{{ value2 }}" options="{{ option2 }}" />
+    <van-dropdown-item value="{{ value3 }}" options="{{ option3 }}" />
+  </van-dropdown-menu>
+  <view class="toy-list bg-white">
+    <view class="toy-item flex" wx:for="{{shopList}}" wx:key="*this">
+      <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3854471425,3672240457&fm=26&gp=0.jpg" class="toy-image"></image>
+      <view class="toy-info">
+        <view class="name font-30">舒适购物车</view>
+        <view class="price color-red font-28">￥6.61/天起</view>
+        <view class="info flex jb font-24 color-grey">
+          <text>吊牌价：￥699.0</text>
+          6-36月
+        </view>
+        <view class="info font-24 color-grey">玩具级别：中</view>
+      </view>
+    </view>
+  </view>
+</view>

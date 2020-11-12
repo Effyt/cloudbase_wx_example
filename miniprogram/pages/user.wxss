@@ -1,0 +1,4 @@
+/* pages/user.wxss */
+.user-cell {
+  margin-bottom: 20rpx;
+}

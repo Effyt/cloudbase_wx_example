@@ -1,3 +1,50 @@
-<view>
-  <van-button type="default">默认按钮</van-button>
+<view class="container">
+  <swiper class="swiper-box" indicator-dots autoplay circular indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" interval="3000">
+    <swiper-item wx:for="{{background}}" wx:key="*this">
+      <image src="{{item}}" class="image"></image>
+    </swiper-item>
+  </swiper>
+  <view class="menu-wrapper bg-white">
+    <view class="flex jb">
+      <view class="menu-part menu-left bg-red">
+        <image class="icon" src="../../static/tabbar/ico_me_nor@2x.png" />
+        活动专区
+      </view>
+      <view class="menu-part menu-right bg-yellow">
+        <image class="icon" src="../../static/tabbar/ico_me_nor@2x.png" />
+        赢取免租
+      </view>
+    </view>
+    <view class="flex ja">
+      <view class="menu-part menu-item bg-blue">
+        <image class="icon" src="../../static/tabbar/ico_me_nor@2x.png" />
+        积分荟
+      </view>
+      <view class="menu-part menu-item bg-green">
+        <image class="icon" src="../../static/tabbar/ico_me_nor@2x.png" />
+        我的优惠券
+      </view>
+      <view class="menu-part menu-item bg-red">
+        <image class="icon" src="../../static/tabbar/ico_me_nor@2x.png" />
+        成为会员
+      </view>
+    </view>
+  </view>
+  <!-- list -->
+  <view class="shop-list-wrapper bg-white">
+    <text class="shop-title">近期热租</text>
+    <view class="shop-tip">看看其他宝宝都在玩什么</view>
+    <view class="shop-list">
+      <view class="shop-item" wx:for="{{shopList}}" wx:key="*this">
+        <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3854471425,3672240457&fm=26&gp=0.jpg" />
+        <view class="shop-cont">
+          <view class="shop-rent color-red font-28">￥6.61/天起</view>
+          <view class="shop-info color-blue font-23 flex jb">
+            <text class="price color-grey">吊牌价：￥699.0</text>
+            6-36月
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>

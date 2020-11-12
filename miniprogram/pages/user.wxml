@@ -1,0 +1,21 @@
+<!-- pages/user.wxml -->
+<view class="container">
+  <view class="user-cell bg-white">
+    <van-cell title="我的钱包" is-link value="￥0.00" />
+    <van-cell title="我的押金" is-link value="￥0.00" />
+    <van-cell title="我的订单" is-link />
+    <van-cell title="我的预约" is-link value="全部预约" />
+    <van-cell title="我的地址" is-link />
+  </view>
+  <view class="user-cell bg-white">
+    <van-cell title="我的优惠券" />
+    <van-cell title="我的兑换码" />
+  </view>
+  <view class="user-cell bg-white">
+    <van-cell title="转发有礼" />
+    <van-cell title="活动专区" />
+    <van-cell title="会员中心" />
+    <van-cell title="兑换卡券" />
+    <van-cell title="联系客服" />
+  </view>
+</view>

@@ -1,7 +1,5 @@
 {
-  "navigationBarTitleText": "首页",
-  "navigationBarBackgroundColor": "#F6F6F6",
-  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "童无忧玩具",
   "usingComponents": {
     "van-button": "@vant/weapp/button/index"
   }

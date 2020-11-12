@@ -1,0 +1,142 @@
+page {
+  background: #f7f7f7;
+}
+
+/* 弹性盒子 */
+.flex {
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.iflex {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+
+.dc {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.fw {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.jc {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.js {
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+.je {
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.jb {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.ja {
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.as {
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.ac {
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.ae {
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+
+.f0 {
+  -webkit-flex: 0;
+  flex: 0;
+}
+
+.fg {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.fn {
+  -webkit-flex: none;
+  flex: none;
+}
+
+/* 盒模型 */
+
+.c-box {
+  box-sizing: content-box;
+}
+
+.b-box {
+  box-sizing: border-box;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.bg-blue {
+  background: #55c2fa;
+}
+
+.bg-green {
+  background: #6bb564;
+}
+
+.bg-red {
+  background: #d3544d;
+}
+
+.bg-yellow {
+  background: #f3a44e;
+}
+
+.color-blue {
+  color: #55c2fa;
+}
+
+.color-red {
+  color: #d3544d;
+}
+
+.color-grey {
+  color: #666;
+}
+
+.font-30 {
+  font-size: 30rpx;
+}
+
+.font-28 {
+  font-size: 28rpx;
+}
+
+.font-24 {
+  font-size: 24rpx;
+}
+
+.font-23 {
+  font-size: 23rpx;
+}
+
+.font-22 {
+  font-size: 22rpx;
+}
